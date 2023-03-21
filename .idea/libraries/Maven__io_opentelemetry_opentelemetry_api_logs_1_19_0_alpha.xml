@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: io.opentelemetry:opentelemetry-api-logs:1.19.0-alpha">
+    <CLASSES>
+      <root url="jar://E:/develop/apache-maven-3.8.4/mvn_repository/io/opentelemetry/opentelemetry-api-logs/1.19.0-alpha/opentelemetry-api-logs-1.19.0-alpha.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://E:/develop/apache-maven-3.8.4/mvn_repository/io/opentelemetry/opentelemetry-api-logs/1.19.0-alpha/opentelemetry-api-logs-1.19.0-alpha-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://E:/develop/apache-maven-3.8.4/mvn_repository/io/opentelemetry/opentelemetry-api-logs/1.19.0-alpha/opentelemetry-api-logs-1.19.0-alpha-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

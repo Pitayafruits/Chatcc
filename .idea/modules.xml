@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/chatcc.iml" filepath="$PROJECT_DIR$/.idea/chatcc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chatcc-application/chatcc-application.iml" filepath="$PROJECT_DIR$/chatcc-application/chatcc-application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chatcc-domain/chatcc-domain.iml" filepath="$PROJECT_DIR$/chatcc-domain/chatcc-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chatcc-infrastructure/chatcc-infrastructure.iml" filepath="$PROJECT_DIR$/chatcc-infrastructure/chatcc-infrastructure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chatcc-interface/chatcc-interface.iml" filepath="$PROJECT_DIR$/chatcc-interface/chatcc-interface.iml" />
+    </modules>
+  </component>
+</project>

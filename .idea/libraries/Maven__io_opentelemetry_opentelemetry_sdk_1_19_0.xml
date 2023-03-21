@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: io.opentelemetry:opentelemetry-sdk:1.19.0">
+    <CLASSES>
+      <root url="jar://E:/develop/apache-maven-3.8.4/mvn_repository/io/opentelemetry/opentelemetry-sdk/1.19.0/opentelemetry-sdk-1.19.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://E:/develop/apache-maven-3.8.4/mvn_repository/io/opentelemetry/opentelemetry-sdk/1.19.0/opentelemetry-sdk-1.19.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://E:/develop/apache-maven-3.8.4/mvn_repository/io/opentelemetry/opentelemetry-sdk/1.19.0/opentelemetry-sdk-1.19.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
