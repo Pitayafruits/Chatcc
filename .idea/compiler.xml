@@ -22,7 +22,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="chatcc" options="" />
+      <module name="chatcc" options="-parameters" />
       <module name="chatcc-application" options="-parameters" />
       <module name="chatcc-domain" options="-parameters" />
       <module name="chatcc-infrastructure" options="-parameters" />
