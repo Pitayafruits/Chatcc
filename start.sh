@@ -1,0 +1,1 @@
+docker run -e PARAMS=" --chatcc.groupId=你的星球ID --chatcc.openAiKey=自行申请 --chatcc.cookie=登录cookie信息" -p 8090:8090 --name chatcc -d chatcc:1.0

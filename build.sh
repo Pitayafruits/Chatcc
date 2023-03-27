@@ -1,0 +1,1 @@
+ docker build -f ./Dockerfile -t chatcc:1.0 .
