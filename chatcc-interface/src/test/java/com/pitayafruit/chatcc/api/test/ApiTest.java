@@ -12,6 +12,7 @@ import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClientBuilder;
 import org.apache.http.util.EntityUtils;
 import org.junit.Test;
+import org.springframework.beans.factory.annotation.Value;
 
 
 import java.io.IOException;
@@ -21,6 +22,9 @@ import java.io.IOException;
  * 单元测试
  */
 public class ApiTest {
+
+    @Value("${chatcc.openAiKey}")
+    private String apiKey;
 
     @Test
     public void query_unanswered_questions() throws IOException {
@@ -81,9 +85,9 @@ public class ApiTest {
 
         HttpPost post = new HttpPost("https://api.openai.com/v1/completions");
         post.addHeader("Content-Type", "application/json");
-        post.addHeader("Authorization", "Bearer 自己的Api-Key");
+        post.addHeader("Authorization", "Bearer " + apiKey);
 
-        String paramJson = "{\"model\": \"text-davinci-002\", \"prompt\": \"Java怎么开发后台管理系统\", \"temperature\": 0, \"max_tokens\": 1024}";
+        String paramJson = "{\"model\": \"text-davinci-002\", \"prompt\": \"Java实现快速排序\", \"temperature\": 0, \"max_tokens\": 1024}";
 
         StringEntity stringEntity = new StringEntity(paramJson, ContentType.create("text/json", "UTF-8"));
         post.setEntity(stringEntity);
